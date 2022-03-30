@@ -14,11 +14,11 @@ Google Colabにて
 
 Rank譜面のClearの進捗状況や、SS/S/AなどのScoreのランクの状況を可視化できます。
 
-<img src="https://pbs.twimg.com/media/FPBJ8_xacAU9rNA?format=jpg" style="width:200px;"/>
+<img src="https://pbs.twimg.com/media/FPBJ8_xacAU9rNA?format=jpg" />
 
 条件を選択し散布図で分析できます。
 
-<img src="https://pbs.twimg.com/media/FO8HJb1agAcVvn5?format=jpg" style="width:200px;"/>
+<img src="https://pbs.twimg.com/media/FO8HJb1agAcVvn5?format=jpg" />
 
 ## 使用データ
 本ツールは以下のデータを利用しています。

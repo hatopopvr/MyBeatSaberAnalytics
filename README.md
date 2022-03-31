@@ -6,7 +6,7 @@ BeatSaberのScoreSaberの情報を取得し、Rank譜面Clearの進捗状況や�
 本ツールは [Satoさん](https://twitter.com/zitasato) の [MyBeatSaberScore](https://github.com/tkns3/MyBeatSaberScore/) に影響を受け、クリア進捗やスコア傾向をグラフ等で可視化するために作成しました。  本ツールには未クリア譜面の詳細検索や未クリア譜面のプレイリスト作成機能などは含まれません。
 
 ## 使用方法
-以下のようにボタン押し、本notebookをGoogle Colobで起動してください。   
+`Open in Colab` のボタン押し、本notebookをGoogle Colobで起動してください。   
 <img src="https://pbs.twimg.com/media/FPL50pCakAQpMZJ?format=jpg">     
 入力情報のフォームに必要事項を入力し、ランタイムでセルを実行してください。  
 セルを実行していただくと、Google Driveにマウントし、曲情報やPlay情報などをGoogle Driveの指定フォルダに保存します。  

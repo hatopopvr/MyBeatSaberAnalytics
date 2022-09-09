@@ -1,7 +1,7 @@
 # MyBeatSaberAnalytics
 
 ## 概要
-BeatSaberのScoreSaberの情報を取得し、Rank譜面Clearの進捗状況や、Play傾向を散布図で分析するツールです。
+BeatSaberの[ScoreSaber](https://scoresaber.com/)の情報を取得し、Rank譜面Clearの進捗状況や、Play傾向を散布図で分析するツールです。
 
 本ツールは [Satoさん](https://twitter.com/zitasato) の [MyBeatSaberScore](https://github.com/tkns3/MyBeatSaberScore/) に影響を受け、クリア進捗やスコア傾向をグラフ等で可視化するために作成しました。  本ツールには未クリア譜面の詳細検索や未クリア譜面のプレイリスト作成機能などは含まれません。
 

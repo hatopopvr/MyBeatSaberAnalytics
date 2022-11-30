@@ -1,5 +1,7 @@
 # MyBeatSaberAnalytics
 
+### [For English user(MyBSAnalytics_Lite: Ranked Score only & English ver.)](https://github.com/hatopopvr/MyBSAnalytics_Lite)
+
 ## 概要
 BeatSaberの[ScoreSaber](https://scoresaber.com/)の情報を取得し、Rank譜面Clearの進捗状況や、Play傾向を散布図で分析するツールです。
 

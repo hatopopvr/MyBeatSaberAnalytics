@@ -8,8 +8,12 @@ BeatSaberの[ScoreSaber](https://scoresaber.com/)の情報を取得し、Rank譜
 本ツールは [Satoさん](https://twitter.com/zitasato) の [MyBeatSaberScore](https://github.com/tkns3/MyBeatSaberScore/) に影響を受け、クリア進捗やスコア傾向をグラフ等で可視化するために作成しました。  本ツールには未クリア譜面の詳細検索や未クリア譜面のプレイリスト作成機能などは含まれません。
 
 ## 使用方法
-`Open in Colab` のボタン押し、[本notebook](https://github.com/hatopopvr/MyBeatSaberAnalytics/blob/main/MyBeatSaberAnalytics.ipynb)をGoogle Colobで起動してください。   
-<img src="https://pbs.twimg.com/media/FPL50pCakAQpMZJ?format=jpg">     
+以下リンクより該当する notebook をGoogle Colobで起動してください。   
+
+- [通常版](https://colab.research.google.com/github/hatopopvr/MyBeatSaberAnalytics/blob/main/MyBeatSaberAnalytics.ipynb): ScoreSaberのアカウントが要ります。曲データは以下の使用データを参照ください。
+- [Beta v0.0.4](https://colab.research.google.com/github/hatopopvr/MyBeatSaberAnalytics/blob/main/MyBeatSaberAnalytics_20230531_Beta_0_0_4.ipynb): ベータ版。上記に加えてBeatLeaderのデータを追加で取得するため、BeatLeaderアカウントが要ります。
+- [MyBSAnalytics_Lite](https://colab.research.google.com/github/hatopopvr/MyBSAnalytics_Lite/blob/main/MyBSAnalytics_Lite_En.ipynb): Lite版。ScoreSaberのアカウントが要ります。曲データはランク譜面のみを取り扱います。
+
 入力情報のフォームに必要事項を入力し、ランタイムでセルを実行してください。  
 セルを実行していただくと、Google Driveにマウントし、曲情報やPlay情報などをGoogle Driveの指定フォルダに保存します。  
 プレイ情報と曲情報の取得・解析には時間がかかります。  
@@ -27,6 +31,8 @@ Rank譜面のClearの進捗状況や、SS/S/AなどのScoreのランクの状況
 - ScoreSaberのPublic API - [doc](https://docs.scoresaber.com/)  
 　Player情報 - https://scoresaber.com/api/player/{player_id}/full  
 　Score情報 - https://scoresaber.com/api/player/{player_id}/scores?sort=recent&page={page}  
+- BeatLeader API (Betaのみ) - [doc](https://api.beatleader.xyz/swagger/index.html)  
+　Score情報 - https://api.beatleader.xyz/player/{player_id}/scores
 - 画像データ  
 　Player画像 - https://cdn.scoresaber.com/avatars/{player_id}.jpg  
 　Cover画像 - https://cdn.scoresaber.com/covers/{hash}.png  

@@ -11,7 +11,7 @@ BeatSaberの[ScoreSaber](https://scoresaber.com/)の情報を取得し、Rank譜
 以下リンクより該当する notebook をGoogle Colobで起動してください。   
 
 - [通常版](https://colab.research.google.com/github/hatopopvr/MyBeatSaberAnalytics/blob/main/MyBeatSaberAnalytics.ipynb): ScoreSaberのアカウントが要ります。曲データは以下の使用データを参照ください。
-- [Beta v0.1.1](https://colab.research.google.com/github/hatopopvr/MyBeatSaberAnalytics/blob/main/MyBeatSaberAnalytics_20230830_Beta_0_1_1.ipynb): ベータ版。上記に加えてBeatLeaderのデータを追加で取得するため、BeatLeaderアカウントが要ります。
+- [Beta v0.1.3](https://colab.research.google.com/github/hatopopvr/MyBeatSaberAnalytics/blob/main/MyBeatSaberAnalytics_20230831_Beta_0_1_3.ipynb): ベータ版。上記に加えてBeatLeaderのデータを追加で取得するため、BeatLeaderアカウントが要ります。
 - [MyBSAnalytics_Lite](https://colab.research.google.com/github/hatopopvr/MyBSAnalytics_Lite/blob/main/MyBSAnalytics_Lite_En.ipynb): Lite版。ScoreSaberのアカウントが要ります。曲データはランク譜面のみを取り扱います。
 
 入力情報のフォームに必要事項を入力し、ランタイムでセルを実行してください。  
